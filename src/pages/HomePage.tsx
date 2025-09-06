@@ -1,6 +1,11 @@
+import Hero from "@/components/common/Hero"
+
 const HomePage = () => {
   return (
-    <h2>Esta es la home</h2>
+    <>
+      <Hero title= "Tu Viaje, Tu Itinerario" subtitle="Genera un plan de viaje personalizado en segundos, adaptado a tus gustos y presupuesto."/>
+    </>
+    
   )
 }
 
